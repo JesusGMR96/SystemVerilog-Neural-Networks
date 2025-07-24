@@ -8,7 +8,7 @@ Basic implementations of a neuron and two neural network architectures in System
 
 * **`XOR_net.sv`**: A Multi-Layer Perceptron (MLP) example that solves the non-linearly separable XOR problem. 
 
-* **`IRIS_net.sv`**: A neural network designed to classify samples from the classic Iris flower dataset.
+* **`Iris_net.sv`**: A neural network designed to classify samples from the classic Iris flower dataset.
 
 ---
 
