@@ -1,6 +1,6 @@
 # SystemVerilog-Neural-Networks
 
-Basic implementations of a neuron and two neural network architectures in SystemVerilog, ideal for study and hardware prototyping.
+Basic implementations of a neuron and two neural network architectures in SystemVerilog, featuring a layer-level pipeline for high-throughput inference.
 
 ### Modules
 
