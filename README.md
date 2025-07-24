@@ -6,9 +6,9 @@ Basic implementations of a neuron and two neural network architectures in System
 
 * **`neuron_model.sv`**: A fundamental Perceptron-type neuron model, which serves as the building block for the networks.
 
-* **`XOR_net.sv`**: A Multi-Layer Perceptron (MLP) example that solves the non-linearly separable XOR problem. 
+* **`XOR_net`**: A Multi-Layer Perceptron (MLP) example that solves the non-linearly separable XOR problem. 
 
-* **`Iris_net.sv`**: A neural network designed to classify samples from the classic Iris flower dataset.
+* **`Iris_net`**: A neural network designed to classify samples from the classic Iris flower dataset.
 
 ---
 
