@@ -4,7 +4,7 @@ Basic implementations of a neuron and two neural network architectures in System
 
 ### Modules
 .
-* **`neuron_template_sigmoid.sv`**: This template implements a Perceptron-type neuron with a sigmoid activation function, demonstrating a core structure adaptable for other activation functions (like ReLU in the **`Iris_net`** example).
+* **`neuron_template_sigmoid.sv`**: A template for a Perceptron-type neuron with a sigmoid activation function. It demonstrates the fundamental structure of a neuron, which can be adapted for other activation functions (like ReLU, used in the `IRIS_net`)
 
 * **`XOR_net`**: A Multi-Layer Perceptron (MLP) example that solves the non-linearly separable XOR problem. 
 
