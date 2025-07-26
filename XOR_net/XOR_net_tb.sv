@@ -2,6 +2,7 @@
 module XOR_net_tb();
 //Set time for 820 ns
 // Simulation time is set to 820 ns to ensure all test inputs are applied and results can be observed
+// Note: Correct output values will tend towards 0 or 16.
 logic En;
 logic Run;
 logic [7:0] X1;
