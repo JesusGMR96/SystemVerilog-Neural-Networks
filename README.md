@@ -58,3 +58,7 @@ A neural network designed to classify samples from the classic Iris flower datas
 The neural network examples (`XOR_net` and `Iris_net`) were **automatically generated** by a custom tool. This tool converts a TensorFlow/Keras model into an equivalent, quantized SystemVerilog implementation using a base neuron template.
 
 This repository focuses on the resulting SystemVerilog code. The generator tool itself is not part of this project.
+
+### Acknowledgments
+
+The neural network topology diagrams in this project were created using the excellent online tool [NN-SVG](https'//alexlenail.me/NN-SVG/) developed by Alex Lenail.
