@@ -6,7 +6,7 @@ module arg_max #(parameter DATA_WIDTH = 8)(
 	input logic signed [DATA_WIDTH+5:0] XS1,
 	input logic signed [DATA_WIDTH+5:0] XS2,
 	input logic signed [DATA_WIDTH+5:0] XS3,
-	output logic [2:0] Yc,
+	output logic [1:0] Yc,
 	output logic Ready_arg
 	);
 
@@ -135,4 +135,5 @@ module arg_max #(parameter DATA_WIDTH = 8)(
 			end
 		endcase
 	end
+
 endmodule
