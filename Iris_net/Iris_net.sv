@@ -7,7 +7,7 @@ module Iris_net #(parameter DATA_WIDTH = 8)(
 	input logic [DATA_WIDTH-1:0]  X2,
 	input logic [DATA_WIDTH-1:0]  X3,
 	input logic [DATA_WIDTH-1:0]  X4,
-	output logic [2:0] Yc,
+	output logic [1:0] Yc,
 	output logic [3:0] Ready_NN_arg
 	);
 	logic signed [DATA_WIDTH+5:0] XS1;
